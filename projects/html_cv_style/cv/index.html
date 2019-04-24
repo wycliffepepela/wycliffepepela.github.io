@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Wycliffe cv</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="css/resume.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+
+
+.cd-transition-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.cd-transition-layer .bg-layer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-2%);   
+    transform: translateY(-50%) translateX(-2%);     
+    height: 100%;
+    /* our sprite is composed of 25 frames */
+    width: 2500%;
+    background: url(ink.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.cd-transition-layer.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cd-transition-layer.opening .bg-layer {     
+    animation: cd-sequence 1.0s steps(24);     
+    animation-fill-mode: forwards;
+}
+
+.cd-transition-layer.closing .bg-layer {     
+    animation: cd-sequence-reverse 1.0s steps(24);    
+    animation-fill-mode: forwards;
+}
+
+.no-cssanimations .cd-transition-layer {
+    display: none;
+}
+
+ 
+@keyframes cd-sequence {
+    0% {
+        transform: translateY(-50%) translateX(-2%);
+    }
+    100% {        
+        transform: translateY(-50%) translateX(-98%);
+    }
+}
+
+    
+    
+  
+@keyframes cd-sequence-reverse {
+    0% {
+         
+        transform: translateY(-50%) translateX(-98%);
+    }
+    100% {
+         
+        transform: translateY(-50%) translateX(-2%);
+    }
+}
+
+
+/*------------------------ 2.2 Header ------------------------*/
+
+.full-menu .fullmenu-content {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.page-menu {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.page-menu li {
+    line-height: 50px;
+    margin-left: -25px;
+}
+
+.page-menu li:last-child {
+    line-height: 90px;
+}
+
+.page-menu li a {
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+    font-weight: 500;
+     
+}</style>
+  </head>
+  <body id="page-top">
+   
+   <div class="cd-transition-layer visible opening"> 
+  <div class="bg-layer"></div>
+</div><!-- Ink Transition -->
+
+<div class="wrapper">
+
+    <div class="container-fluid p-0  ">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">WYCLIFFE
+            <span class="text-primary">PEPELA</span>
+          </h1>
+          <div class="subheading mb-5">NAIROBI · WESTLANDS , ST' PAULS UNIVERSTY· +254707954632 ,+254792557428 ·
+            <a href="mailto:Wycliffepepela01@gmail.com">Wycliffepepela01@gmail.com</a>
+          </div>
+        
+          
+          <br>
+          <br>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://facebook.com/Reborn Theodore Wycliffe">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/@Wycliffe pepela">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 5th - May 2nd</span>
+            </div>
+          </div><br>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              
+            <div class="resume-date text-md-right">
+              <span class="text-primary">20 th march 2017-20 th may 2017</span>
+            </div>
+          </div><br>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Driving</h3>
+              
+            <div class="resume-date text-md-right">
+              <span class="text-primary">3rd January 2017-20th March 2017</span>
+            </div>
+          </div><br>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Working at cocacola</h3>
+              
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2016-2017</span>
+            </div>
+          </div><br>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">ST  PAULS University </h3>
+              <div class="subheading mb-3">Diploma in Computer Science</div>
+              <div><!-- Computer Science - Web Development Track --></div>
+              <p><!-- GPA: 3.23 --></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary"> 2018 - 2020</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">eMobilis Mobile Technology Training Institute</h3>
+              <div class="subheading mb-3"><!-- Technology Magnet Program --></div>
+              <p><!-- GPA: 3.56 --></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary"> 2018 - 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">BUTULA  BOYS HIGH SCHOOL</h3>
+              <div class="subheading mb-3"><!-- Technology Magnet Program --></div>
+              <p><!-- GPA: 3.56 --></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2014 - 2017</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">WEBUYE S.A PRIMARY</h3>
+              <div class="subheading mb-3"><!-- Technology Magnet Program --></div>
+              <p><!-- GPA: 3.56 --></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary"> 2005 - 2013</span>
+            </div>
+          </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+          <ul>
+            <li> <h3>Android Programming</h3></li>
+            <br>
+          <li><h3>Website development</h3></li>
+          <br>
+          <li><h3>Footballer</h3></li>
+          <br>
+          </ul>
+         
+          
+          <br>
+          
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5">HTML5 ,</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3">CSS ,</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript">JavaScript ,</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery">Jquery ,</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sass">MSQLI ,</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-less">PHP ,</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap">JAVA ,</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-grunt">C++ ,</i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests /Hobbies</h2>
+           <h4>Programming and creating of websites</h4>
+          <h4>Travelling to other countries</h4>
+         
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+             <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Driving licence</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              KCSE certificate </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              KCPE certificate </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup>
+              place-Emobilis institute</li>
+          </ul>
+        </div>
+      </section>
+      <script src="jquery-2.1.4.min.js"></script>
+ 
+ <script>
+  window.onload = function () {
+    window.open('links.html','My Window','height= 480 px,width =640 ,');
+};
+ 'use strict'; 
+
+$(document).ready( function() {
+ 
+  
+
+    var width = 100,
+        perfData = window.performance.timing, 
+        EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
+        time = ((EstimatedTime/1000)%50) * 100
+
+
+    // Percentage Increment Animation
+    var PercentageID = $(".percentage"),
+            start = 0,
+            end = 100,
+            durataion = time;
+            animateValue(PercentageID, start, end, durataion);
+
+    function animateValue(id, start, end, duration) {
+
+        var range = end - start,
+          current = start,
+          increment = end > start? 1 : -1,
+          stepTime = Math.abs(Math.floor(duration / range)),
+          obj = $(id);
+
+
+        var timer = setInterval(function() {
+            current += increment;
+            $(obj).text(current);
+          //obj.innerHTML = current;
+            if (current == end) {
+                clearInterval(timer);
+            }
+        }, stepTime);
+    }
+    
+
+    
+  setTimeout(function(){
+        $('.preloader').fadeOut();
+        
+        $('.cd-transition-layer').addClass('closing').delay(1000).queue(function(){
+            $(this).removeClass("visible closing opening").dequeue();
+        });
+        
+  }, time);
+    
+    
+
+
+   // FADE OUT EFFECT WHEN CLICK A LINK
+    $(document).on("click", "a:not(.lightbox)", function () {
+        var newUrl = $(this).attr("href");
+        if (!newUrl || newUrl[0] === "#") {
+            location.hash = newUrl;
+            return;
+        }
+        $("html").fadeOut(function () {
+            location = newUrl;
+        });
+        return false;
+    });
+    
+
+    var paget = $(".page-title .title").text();
+
+    $( ".page-title").append("<span></span>");
+    $( ".page-title span").append(paget);
+
+
+    
+    //posts page hover 
+    $('.blog-post .blog-link').hover(function(){
+        $(this).parent('.content-outter').parent('.blog-post').toggleClass('mousef');
+        $(this).parent('.blog-post').toggleClass('mousef');
+    });
+ 
+});  
+
+
+
+
+$(window).load( function() {
+ 
+
+function smokeeffect () { 
+    var modalTrigger = $('.nav-icon'),
+        transitionLayer = $('.cd-transition-layer'),
+        transitionBackground = transitionLayer.children(),
+        modalWindow = $('.full-menu');
+
+    var frameProportion = 1.78, //png frame aspect ratio
+        frames = 25, //number of png frames
+        resize = false;
+
+    //set transitionBackground dimentions
+    setLayerDimensions();
+    $(window).on('resize', function(){
+        if( !resize ) {
+            resize = true;
+            (!window.requestAnimationFrame) ? setTimeout(setLayerDimensions, 300) : window.requestAnimationFrame(setLayerDimensions);
+        }
+    });
+
+    //open modal window
+    modalTrigger.on('click', function(event){   
+        event.preventDefault();
+        transitionLayer.addClass('visible opening');
+        var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 600;
+        setTimeout(function(){
+            modalWindow.addClass('visible');
+        }, delay);
+    });
+
+    //close modal window
+    modalWindow.on('click', '.modal-close', function(event){
+        event.preventDefault();
+        transitionLayer.addClass('closing');
+        modalWindow.removeClass('visible');
+        transitionBackground.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
+            transitionLayer.removeClass('closing opening visible');
+            transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
+        });
+    });
+
+    function setLayerDimensions() {
+        var windowWidth = $(window).width(),
+            windowHeight = $(window).height(),
+            layerHeight, layerWidth;
+
+        if( windowWidth/windowHeight > frameProportion ) {
+            layerWidth = windowWidth;
+            layerHeight = layerWidth/frameProportion;
+        } else {
+            layerHeight = windowHeight*1.2;
+            layerWidth = layerHeight*frameProportion;
+        }
+
+        transitionBackground.css({
+            'width': layerWidth*frames+'px',
+            'height': layerHeight+'px',
+        });
+
+        resize = false;
+    }
+
+}
+smokeeffect()
+
+ 
+    
+/*--------------------------------------------------
+ Hero Section Height
+---------------------------------------------------*/ 
+     function homeh() {
+        var hometext = $('.main')
+
+        hometext.css({
+            "height": $(window).height() + "px"
+        });
+    }
+    homeh();
+    $(window).resize(homeh);
+
+
+    $( ".page-menu li:not(.social) a, .portfolio_filter ul li a").append( "<span></span>" );
+
+    $('.nav-icon').on("click", function(){
+            $(this).toggleClass('modal-close');
+    });
+ 
+ 
+     
+}); // document load end 
+
+
+
+
+  
+</script>
+</div>
+   
+  </body>
+</html>

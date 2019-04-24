@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #313636;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+svg {
+  margin-bottom: 80px;
+}
+
+.btn {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.subCircle {
+  pointer-events: none;
+}
+
+.strokeW {
+  -webkit-animation: strokeW .6s forwards;
+          animation: strokeW .6s forwards;
+}
+@-webkit-keyframes strokeW {
+  to {
+    stroke-width: 1.16;
+  }
+}
+@keyframes strokeW {
+  to {
+    stroke-width: 1.16;
+  }
+}

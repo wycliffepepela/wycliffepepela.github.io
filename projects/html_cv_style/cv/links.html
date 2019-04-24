@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lol</title>
+	<style type="text/css">
+		body{
+	margin: 0;
+	padding: 0;
+	background: #000;
+
+}
+.shadow{
+	position: relative;
+	margin: 150px auto;
+	width: 400px;
+	height: 300px;
+	background: linear-gradient(0deg,#fff,#262626);
+}
+.shadow:before,
+.shadow:after
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	
+	background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,
+		#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate 20s linear infinite;
+}
+.shadow:after{
+	filter: blur(20px);
+}
+@keyframes animate{
+	0%{
+		background-position: 0 0;
+	}
+	50%{
+		background-position: 400% 0;
+	}
+	100%{
+		background-position: 0 0;
+	}
+}
+	</style>
+	
+
+</head>
+<body>
+	<div class="shadow">
+		<h2 style="color: white;text-align: ">please check out my links below</h2>
+		<br><hr><br>
+		<a href="https://www.facebook.com/" target="blank" style="text-align: center;"><strong>MY PORTFOLIO</strong></a><br><hr><br>
+		<a href="https://www.facebook.com/" target=""><strong>MY JAVA PROGRAMS</strong></a><br><hr><br>
+		<a href="https://www.facebook.com/" target=""><strong>MY PHP PROGRAMS</strong></a><br><hr><br>
+		<a href="https://www.facebook.com/" target=""><strong>MY ANDROID PROGRAMS</strong></a><br><hr><br>
+		
+	</div>
+</body>
+</html>
